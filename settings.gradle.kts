@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Task Sheduler"
 include(":app")
+include(":feature")
+include(":feature:objectives")

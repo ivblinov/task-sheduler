@@ -1,4 +1,4 @@
-package com.examples.tasksheduler
+package com.task.objective
 
 import org.junit.Test
 
