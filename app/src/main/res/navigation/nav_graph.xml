@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/objectivesFragment5">
+
+    <include app:graph="@navigation/objectives_nav_graph" />
+
+    <fragment
+        android:id="@+id/objectivesFragment5"
+        android:name="com.task.objective.presentation.fragments.ObjectivesFragment"
+        android:label="ObjectivesFragment" >
+        <action
+            android:id="@+id/action_objectivesFragment5_to_objectives_nav_graph"
+            app:destination="@id/objectives_nav_graph" />
+    </fragment>
+
+</navigation>

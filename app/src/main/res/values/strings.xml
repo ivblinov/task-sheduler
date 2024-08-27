@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Task Sheduler</string>
+    <string name="objectives">цели</string>
+    <string name="tasks">задачи</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_fragment">nav fragment</string>
 </resources>
