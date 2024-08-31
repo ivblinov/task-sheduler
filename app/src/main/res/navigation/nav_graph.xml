@@ -5,6 +5,7 @@
     app:startDestination="@id/objectivesFragment5">
 
     <include app:graph="@navigation/objectives_nav_graph" />
+    <include app:graph="@navigation/tasks_nav_graph" />
 
     <fragment
         android:id="@+id/objectivesFragment5"
@@ -13,6 +14,9 @@
         <action
             android:id="@+id/action_objectivesFragment5_to_objectives_nav_graph"
             app:destination="@id/objectives_nav_graph" />
+        <action
+            android:id="@+id/action_objectivesFragment5_to_tasks_nav_graph"
+            app:destination="@id/tasks_nav_graph" />
     </fragment>
 
 </navigation>

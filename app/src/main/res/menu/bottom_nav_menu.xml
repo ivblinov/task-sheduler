@@ -4,12 +4,13 @@
 
     <item
         android:id="@id/objectives_nav_graph"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_objective"
         android:title="@string/objectives"
         app:showAsAction="ifRoom" />
 
-<!--    <item
+    <item
         android:id="@id/tasks_nav_graph"
+        android:icon="@drawable/ic_task_24"
         android:title="@string/tasks"
-        app:showAsAction="ifRoom" />-->
+        app:showAsAction="ifRoom" />
 </menu>
