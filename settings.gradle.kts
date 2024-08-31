@@ -23,3 +23,4 @@ rootProject.name = "Task Sheduler"
 include(":app")
 include(":feature")
 include(":feature:objectives")
+include(":feature:tasks")
